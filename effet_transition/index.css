@@ -161,3 +161,12 @@ input {
 		background-size: cover;
 	}
 }
+
+@media (max-width: 679px){
+	
+	.slide{
+		
+		width: 100%;
+	}
+	
+}
