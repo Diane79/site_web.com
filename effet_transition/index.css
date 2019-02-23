@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+
 
 
 
@@ -162,11 +162,3 @@ input {
 	}
 }
 
-@media (max-width: 679px){
-	
-	.slide{
-		
-		width: 100%;
-	}
-	
-}
