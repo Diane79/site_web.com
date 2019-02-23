@@ -1,147 +1,163 @@
 * {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+
 
 
 }
 
 li {
-    list-style-type: none;
-    margin-left: 20px;
-    color: white;
+	list-style-type: none;
+	margin-left: 20px;
+	color: white;
 
 }
 
 ul {
 
-    display: inline-flex;
-    font-size: 14px;
+	display: inline-flex;
+	font-size: 14px;
 }
 
 .icone1 {
 
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .nav {
 
-    display: inline-flex;
-    padding-left: 50px;
-    padding-top: 20px;
+	display: inline-flex;
+	padding-left: 50px;
+	padding-top: 20px;
 }
 
 .nav1 {
 
-    padding-left: 590px;
+	padding-left: 590px;
 
 }
 
 
 .bloc1 {
-    text-align: center;
-    color: white;
+	text-align: center;
+	color: white;
 
 
 }
 
 .on {
 
-    position: relative;
-    bottom: 900px;
-    text-align-last: center;
+	position: relative;
+	bottom: 900px;
+	text-align-last: center;
 }
 
 .goo {
 
-    display: flex;
-    padding-left: 618px;
-    padding-top: 50px;
-    font-size: 1.1px;
+	display: flex;
+	padding-left: 618px;
+	padding-top: 50px;
+	font-size: 1.1px;
 }
 
 .btn {
 
-    margin-right: 40px;
-    border: 1px solid white;
+	margin-right: 40px;
+	border: 1px solid white;
 }
 
 input {
 
-    padding-right: 360px;
-    padding-bottom: 7px;
-    padding-top: 7px;
+	padding-right: 360px;
+	padding-bottom: 7px;
+	padding-top: 7px;
 }
 
 .footer {
-    display: inline-flex;
-    color: white;
+	display: inline-flex;
+	color: white;
 }
 
 .beau {
 
-    padding-right: 690px;
-    font-size: 14px;
-    padding-left: 30px;
+	padding-right: 690px;
+	font-size: 14px;
+	padding-left: 30px;
 }
 
 .pt {
-    font-size: 15px;
-    color: white;
-    position: relative;
-    bottom: 50px;
-    padding-left: 35px;
-    border: solid 1px white;
-    
+	font-size: 15px;
+	color: white;
+	position: relative;
+	bottom: 50px;
+	padding-left: 35px;
+	border: solid 1px white;
+
 
 }
 
-.heure{
-    
-    font-size: 50px;
-    position: relative;
-    bottom: 2px;
+.heure {
+
+	font-size: 50px;
+	position: relative;
+	bottom: 2px;
 
 }
 
-.lbv{
-    
-    color: white;
-    position: relative;
-    bottom: 65px;
-    padding-left: 1220px;
+.lbv {
+
+	color: white;
+	position: relative;
+	bottom: 65px;
+	padding-left: 1220px;
 }
 
 .slide {
 
-   
-    width: 100%;
-    height: 110%;
-    animation: slide 20s infinite;
+
+	width: 100%;
+	height: 110%;
+	animation: slide 20s infinite;
+	
 }
 
 @keyframes slide {
-    25% {
-        background-image: url(images/o-DROIT-DES-ANIMAUX-facebook.jpg);
-        background-repeat: no-repeat;
-    }
 
-    50% {
-        background-image: url(images/1.jpg);
-        background-repeat: no-repeat;
-    }
 
-    75% {
-        background-image: url(images/2.jpg);
-        background-repeat: no-repeat;
-    }
+	0% {
+		background-image: url(images/o-DROIT-DES-ANIMAUX-facebook.jpg);
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-    100% {
-        background-image: url(images/3.jpg);
-        background-repeat: no-repeat;
-    }
+	25% {
+		background-image: url(images/o-DROIT-DES-ANIMAUX-facebook.jpg);
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	50% {
+		background-image: url(images/1.jpg);
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	75% {
+		background-image: url(images/2.jpg);
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	100% {
+		background-image: url(images/3.jpg);
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
-
-
-
