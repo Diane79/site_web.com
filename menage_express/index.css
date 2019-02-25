@@ -71,9 +71,9 @@ li {
 	top: 20px;
 	width: 35px;
 	height: 35px;
-	
-	
-	
+
+
+
 }
 
 .nav {
@@ -254,20 +254,21 @@ input1 {
 	margin-left: 110px;
 	background-color: cornflowerblue;
 	color: white;
-	margin-top: 50px;
+	margin-top: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
-	
+
 
 }
 
 .button5 {
+
 	margin: 50px;
 	background-color: cornflowerblue;
 	color: white;
 	padding-left: 30px;
 	padding-right: 30px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 100px;
 
 }
@@ -286,13 +287,13 @@ input1 {
 .sous-texte {
 	font-size: 11;
 	line-height: .6em;
-	margin-left: 50px;
+	text-align: center;
 }
 
 .sous-texte1 {
 	font-size: 11;
 	line-height: .1em;
-	margin-left: 180px;
+	text-align: center;
 
 }
 
@@ -805,7 +806,7 @@ input1 {
 
 .fil-color {
 
-	background: rgba(10, 55, 122, .6);
+	background: rgba(10, 55, 122, .7);
 	padding-bottom: 0px;
 }
 
@@ -1052,6 +1053,7 @@ input {
 	height: 50px;
 	width: 50px;
 	margin-left: 20px;
+	padding-bottom: 5px;
 }
 
 .pi {
@@ -1075,7 +1077,7 @@ input {
 .button2-2:hover {
 
 	color: white;
-background-image: linear-gradient(darkviolet, violet);
+	background-image: linear-gradient(darkviolet, violet);
 }
 
 .fas {
@@ -1335,21 +1337,21 @@ background-image: linear-gradient(darkviolet, violet);
 	font-weight: bolder;
 	width: 70px;
 	height: 70px;
-	
+
 }
 
 .paragraphe1-2-ali {
 	font-size: 14px;
 	text-align: center;
-	
-	
+
+
 }
 
 .bloc-info1 {
 	padding-top: 20px;
 	text-align: center;
 	font-weight: bold;
-	
+
 }
 
 .bloc-info2 {
@@ -1409,10 +1411,100 @@ background-image: linear-gradient(darkviolet, violet);
 /*-----------------------------------fin du profil jobber---------------------------------------------------
 ----------------------------------------debut formulaire de paiement---------------------------------*/
 
-.check-paie{
-	margin-right: 130px;
-	margin-top: 15px;
+.check-airtel1{
+	
+	position: relative;
+	right: 380px;
+	bottom: 40px;
+	
+}
+.check-airtel2{
+	
+	position: relative;
+	right: 380px;
+	bottom: 40px;
+	
+}
+
+.card-img-airtel{
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	position: absolute;
+	bottom: 175px;
+	;
 	
 	
+}
+.card-img-mobile{
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	position: absolute;
+	bottom: 180px;
+	height: 70px;
+
 	
+	
+}
+
+.bloc-choix{
+	
+	display: flex;
+	margin-left: 350px;
+}
+
+.input-mobile-airtel{
+	margin-right: 100px;
+	
+	
+}
+
+/*----------------------------------------------Dévenir jpobber----------------------------------------------*/
+
+
+
+.container-bloc3 {
+
+	display: flex;
+	margin-right: 20px;
+
+}
+
+
+
+
+.card-img {
+
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	position: absolute;
+	bottom: 100px;
+}
+
+.bloc-poste {
+
+	background-color: cornflowerblue;
+	background-image: linear-gradient(#08f 43%, #14bcff);
+	height: 600px;
+
+
+}
+
+.bloc-p {
+
+	text-align: center;
+	margin-top: 70px;
+	font-weight: bolder;
+	font-size: 17px;
+	margin-top: 70px;
+	color: #999998;
+
+}
+
+
+.bloc-p:hover {
+
+	color: cornflowerblue;
 }
