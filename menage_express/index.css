@@ -361,10 +361,15 @@ input1 {
 
 .number1 {
 
-	width: 220px;
-	border-radius: 70%;
-	margin-left: 100px;
-	margin-bottom: 10px;
+	width: 200px;
+	margin-left: 157px;
+	
+}
+.number1-4 {
+
+	width: 140px;
+	margin-left: 220px;
+	
 }
 
 .number {
@@ -420,7 +425,7 @@ input1 {
 
 .hr1 {
 	width: 150px;
-	border: .9px solid silver;
+	border: .8px solid silver;
 	position: relative;
 	left: 450px;
 	top: 3px;
@@ -430,24 +435,16 @@ input1 {
 .hr2 {
 	width: 40px;
 	border: 1.5px solid blue;
-	margin-right: 100px;
+	margin-right: 248px;
 	position: relative;
-	top: 2px;
-}
-
-.hr3 {
-	width: 100px;
-	border: .6px solid silver;
-	position: relative;
-	right: 325px;
-	top: 3px;
+	top: 2.4px;
 }
 
 
 
 .number1-1 {
 
-	width: 130px;
+	width: 170px;
 	margin-left: 450px;
 	margin-top: 50px;
 	border-radius: 70%;
@@ -1468,6 +1465,7 @@ input {
 
 	display: flex;
 	margin-right: 20px;
+	
 
 }
 
@@ -1481,6 +1479,25 @@ input {
 	margin-left: 75px;
 	position: absolute;
 	bottom: 100px;
+	
+}
+
+.card-img1{
+	width: 150px;
+	height: 130px;
+	margin-left: 55px;
+	position: absolute;
+	bottom: 90px;
+	
+}
+
+.card-img2{
+	width: 150px;
+	height: 130px;
+	margin-left: 55px;
+	position: absolute;
+	bottom: 90px;
+	
 }
 
 .bloc-poste {
@@ -1488,6 +1505,7 @@ input {
 	background-color: cornflowerblue;
 	background-image: linear-gradient(#08f 43%, #14bcff);
 	height: 600px;
+	
 
 
 }
@@ -1500,6 +1518,7 @@ input {
 	font-size: 17px;
 	margin-top: 70px;
 	color: #999998;
+	
 
 }
 
