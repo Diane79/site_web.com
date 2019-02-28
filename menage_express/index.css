@@ -72,8 +72,6 @@ li {
 	width: 35px;
 	height: 35px;
 
-
-
 }
 
 .nav {
@@ -194,12 +192,7 @@ footer {
 
 
 
-.filtre {
-	background: rgba(0, 0, 0, .8);
-	text-transform: uppercase;
-	padding-bottom: 300px;
-}
-
+=
 
 input1 {
 	width: 60%;
@@ -1065,10 +1058,10 @@ input {
 	position: relative;
 	top: 5px;
 	left: 200px;
-	border: 1px solid black;
+	border: 1px solid white;
 	color: black;
 	transition: all ease 1s;
-	color: v
+	color: white
 }
 
 .button2-2:hover {
@@ -1478,7 +1471,7 @@ input {
 	height: 100px;
 	margin-left: 75px;
 	position: absolute;
-	bottom: 100px;
+	bottom: 107px;
 	
 }
 
@@ -1487,7 +1480,7 @@ input {
 	height: 130px;
 	margin-left: 55px;
 	position: absolute;
-	bottom: 90px;
+	bottom: 92px;
 	
 }
 
@@ -1496,7 +1489,7 @@ input {
 	height: 130px;
 	margin-left: 55px;
 	position: absolute;
-	bottom: 85px;
+	bottom: 87px;
 	
 }
 
@@ -1527,3 +1520,60 @@ input {
 
 	color: cornflowerblue;
 }
+
+/*-----------------------formulaire bricoleur avec son header-------------------------------------------*/
+
+.champ2 {
+
+	background-color: cornflowerblue;
+	padding-top: 85px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 2px 2px 2px silver;
+}
+
+.menage-express1{
+
+	padding: 5px;
+	font-weight: bolder;
+	border: 1px solid cornflowerblue;
+	font-family: 'Indie Flower', cursive;
+	margin-top: 17px;
+	margin-bottom: auto;
+	margin-left: 500px;
+
+}
+
+.icone1 {
+
+	position: relative;
+	left: 520px;
+	top: 25px;
+	width: 35px;
+	height: 35px;
+
+}
+
+.button2-2-14 {
+	position: relative;
+	top: 16px;
+	border: 1px solid cornflowerblue;
+	color: cornflowerblue;
+	transition: all ease 1s;
+	
+}
+
+.button2-2-14:hover {
+
+	color: white;
+	background-image: linear-gradient(darkviolet, violet);
+}
+.filtre1 {
+	background: rgba(0, 0, 0, .7);
+	text-transform: uppercase;
+	padding-bottom: 250px;
+
+}
+
+
