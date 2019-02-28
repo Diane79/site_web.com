@@ -192,7 +192,12 @@ footer {
 
 
 
-=
+.filtre {
+	background: rgba(0, 0, 0, .8);
+	text-transform: uppercase;
+	padding-bottom: 300px;
+}
+
 
 input1 {
 	width: 60%;
@@ -1569,11 +1574,10 @@ input {
 	color: white;
 	background-image: linear-gradient(darkviolet, violet);
 }
-.filtre1 {
-	background: rgba(0, 0, 0, .7);
+
+.opacite-1 {
+	background: rgba(0, 0, 0, .8);
 	text-transform: uppercase;
-	padding-bottom: 250px;
-
+	padding-bottom: 300px;
 }
-
 
