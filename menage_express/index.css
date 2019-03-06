@@ -270,6 +270,17 @@ input1 {
 	margin-left: 100px;
 
 }
+.button5-1-5 {
+
+	margin: 50px;
+	background-color: cornflowerblue;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 35px;
+	margin-left: 100px;
+
+}
 
 
 .button6 {
@@ -1034,22 +1045,43 @@ input {
 
 /*----------------------------------debut de partie jobber bricoleur------------------------------------------------------------------*/
 
-.champ1 {
-
-	background-color: cornflowerblue;
-	padding-top: 70px;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-	box-shadow: 2px 2px 2px silver;
+.card-img-2{
+	width: 120px;
+	height: 120px;
+	margin-left: 85px;
+	position: absolute;
+	bottom: 222px;
+	border-radius: 70px;
 }
 
-.champ {
-	height: 50px;
-	width: 50px;
-	margin-left: 20px;
-	padding-bottom: 5px;
+
+.locat1 {
+
+	width: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
 }
+
+.marge-bloc{
+	
+	margin-left: 180px;
+}
+.marge-bloc1{
+	
+	margin-left: 170px;
+}
+.bloc-p-name{
+	
+	margin-top: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.etoile{
+	
+	text-align: center;
+}
+
 
 .pi {
 
@@ -1059,20 +1091,12 @@ input {
 
 }
 
-.button2-2 {
-	position: relative;
-	top: 5px;
-	left: 200px;
-	border: 1px solid white;
-	color: black;
-	transition: all ease 1s;
-	color: white
-}
+
 
 .button2-2:hover {
 
 	color: white;
-	background-image: linear-gradient(darkviolet, violet);
+	background-image: linear-gradient(blue, cornflowerblue);
 }
 
 .fas {
@@ -1094,8 +1118,8 @@ input {
 	width: 100px;
 	height: 115px;
 	position: absolute;
-	left: 200px;
-	margin-top: 10px;
+	right: 470px;
+	bottom:70px;
 	border-radius: 75%;
 }
 
@@ -1118,6 +1142,7 @@ input {
 
 .filtre-bloc {
 	background: rgba(255, 255, 255, .4);
+	
 
 }
 
@@ -1303,6 +1328,16 @@ input {
 
 }
 
+.bouton-circle{
+
+	height: 50px;
+	width:50px;
+	border-radius: 70%;
+	background-color: cornflowerblue;
+	margin-bottom: 10px;
+	
+}
+
 
 .lance-vs {
 	position: absolute;
@@ -1455,7 +1490,7 @@ input {
 	
 }
 
-/*----------------------------------------------Dévenir jpobber----------------------------------------------*/
+/*----------------------------------------------Dévenir jobber----------------------------------------------*/
 
 
 
@@ -1527,17 +1562,6 @@ input {
 }
 
 /*-----------------------formulaire bricoleur avec son header-------------------------------------------*/
-
-.champ2 {
-
-	background-color: cornflowerblue;
-	padding-top: 85px;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-	box-shadow: 2px 2px 2px silver;
-}
-
 .menage-express1{
 
 	padding: 5px;
@@ -1575,9 +1599,8 @@ input {
 	background-image: linear-gradient(darkviolet, violet);
 }
 
-.opacite-1 {
+.filtre-bloc1 {
 	background: rgba(0, 0, 0, .8);
 	text-transform: uppercase;
-	padding-bottom: 300px;
 }
 
