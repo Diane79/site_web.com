@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body style="background-image: url(images/bricolage/images%20de%20phone.jpg); background-repeat: no-repeat; background-size: cover;">
 	<header>
 		<div class="bloc-colo">
 			<div class="bloc-colo1"></div>
@@ -50,31 +50,41 @@
 	</header>
 
 	<!-- --------------------- fin de la navbar-------------------------------------------------debut navbar2------------------------------------------------------------------>
-	
-	<br><br><br><br>
-	<h1 style="text-align: center;">Choisissez votre mode de paiement</h1>
-	<h5 style="text-align: center">Pour le paiement par mobile</h5>
-	<p style="text-align: center;">Sélectionnez votre opérateur</p>
-	<br><br><br><br><br>
-	<div class="bloc-choix">
-	<div class="card" style="width:300px;margin-right: 50px;">
-		<img class="card-img-airtel" src="images/icones/airtel%20money.png" alt="Card image">
-		<div class="card-contenu">
-				<p class="bloc-p">Numéro: 241 07 17 03 53</p>
-			<input type="radio" name="ExRadio" value="Choix 2" class="check-airtel1">
-			<p style="text-align: center;">Entrez votre Numéro de ticket</p>
-			<input type="password" value="" maxlength="10" placeholder="Nom" class="input-mobile-airtel">
-		</div>
-	</div><br>
-<div class="card" style="width:300px;margin-right: 50px;">
-		<img class="card-img-mobile" src="images/icones/mobile%20cash.jpg" alt="Card image">
-		<div class="card-contenu">
-				<p class="bloc-p">Numéro: 241 06 25 03 53</p>
-			<input type="radio" name="ExRadio" value="Choix 2" class="check-airtel2">
-			<p style="text-align: center;">Entrez votre Numéro de ticket</p>
-			<input type="password" value="" maxlength="10" placeholder="Nom" class="input-mobile-airtel..">
 
+	<br><br><br><br>
+	<div class="container bouton-circle">
+		<div class="row">
+			<div class="col-lx-12 col-lg-12 col-sm-12 col-md-12 col-12">
+				<a href="profiljobber.html" class="rounded-circle"><img src="images/icones/left-arrow%20gd.png" alt="" style="width: 30px; height: 30px; margin-top: 10px; position: absolute; right: 10px"></a>
+			</div>
 		</div>
 	</div>
-</div>
-	
+	<h1 style="text-align: center; color: white" class="anim animated fadeInDown delay-2s">Choisissez votre mode de paiement.</h1>
+	<h5 style="text-align: center; font-size: 30px; color: white" class="anim animated bounceInUp delay-2s">Pour le paiement par mobile, sélectionnez votre opérateur.</h5>
+	<p style="text-align: center;"></p>
+	<br><br><br>
+	<div class="bloc-choix">
+		<div class="card" style="width:300px;margin-right: 50px;">
+			<img class="card-img-airtel" src="images/icones/airtel-money.jpg" alt="Card image">
+			<div class="card-contenu">
+				<p class="bloc-p">Numéro: 241 07 17 03 53</p>
+				<input type="radio" name="ExRadio" value="Choix 2" class="check-airtel1">
+				<p style="text-align: center;">Entrez votre Numéro de ticket</p>
+				<input type="password" value="" maxlength="10" placeholder="Num" class="input-mobile-airtel" style="position: relative; bottom: 15px;">
+				<p style=" position: relative; top: 15px; left: 25px;">Numéro de Référence jobber:</p>
+				<input type="password" value="" maxlength="10" placeholder="Num" class="input-mobile-airtel">
+			</div>
+		</div><br>
+		<div class="card" style="width:300px;margin-right: 50px;">
+			<img class="card-img-mobile" src="images/icones/mobile%20cash.jpg" alt="Card image">
+			<div class="card-contenu">
+				<p class="bloc-p">Numéro: 241 06 25 03 53</p>
+				<input type="radio" name="ExRadio" value="Choix 2" class="check-airtel2">
+				<p style="text-align: center;">Entrez votre Numéro de ticket</p>
+				<input type="password" value="" maxlength="10" placeholder="Num" class="input-mobile-cash"style="position: relative; bottom: 15px;">
+				<p style=" position: relative; top: 15px; left: 25px;">Numéro de Référence jobber:</p>
+				<input type="password" value="" maxlength="10" placeholder="Num" class="input-mobile-cash">
+
+			</div>
+		</div>
+	</div>
