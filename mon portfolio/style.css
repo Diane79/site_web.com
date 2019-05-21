@@ -1,0 +1,1023 @@
+/*-------------------------------------------header-----------------------------------*/
+
+
+
+
+* {
+
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+.section {
+
+	background-color: aqua;
+	height: 500px;
+	line-height: 500px;
+}
+
+
+.loader {
+
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+.loader-quart {
+
+	border-radius: 50px;
+	border: 6px solid rgba(255, 255, 255, 0.4);
+}
+
+.logo {
+
+	width: 200px;
+	height: 51px;
+	margin-left: 50px;
+}
+
+.nav-link {
+
+	font-weight: bolder;
+	font-size: 15px;
+
+
+}
+
+.image-header1 {
+
+	position: relative;
+	bottom: 80px;
+
+}
+
+@font-face {
+
+
+	font-family: Pinyon Script;
+	src: url(font/PinyonScript-Regular.ttf);
+}
+
+.text8 {
+
+
+	font-size: 46px;
+	color: white;
+	font-weight: bolder;
+	padding-left: 50px;
+	font-family: Pinyon Script;
+
+}
+
+.text10 {
+
+
+	font-size: 26px;
+	color: white;
+	font-weight: bolder;
+	padding-left: 30px;
+	font-family: Pinyon Script;
+
+}
+
+.text1-header {
+	font-size: 30px;
+	color: white;
+	padding-left: 49px;
+
+}
+
+.text1-header1 {
+	font-size: 25px;
+	color: white;
+	padding-left: 30px;
+	padding-top: 45px;
+
+
+}
+
+.text2-header {
+
+
+	color: white;
+	font-size: 25px;
+	margin-left: 50px;
+
+}
+
+.text2-header1 {
+
+
+	color: white;
+	font-size: 25px;
+	margin-left: 30px;
+
+}
+
+
+
+.line {
+
+	line-height: 1.8em;
+	margin-top: 300.3px;
+
+}
+
+
+.button1 {
+	margin-left: 50px;
+	margin-top: 50px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border: 2px solid white;
+	color: white;
+}
+
+.button1:hover {
+
+	background-color: #5251bb;
+	color: white;
+}
+
+.button11 {
+	margin-left: 34px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 14px;
+	border: 2px solid white;
+	color: white;
+}
+
+.button11:hover {
+
+	background-color: #5251bb;
+	color: white;
+}
+
+.text1 {
+	font-weight: 700;
+	margin-left: 50px;
+	color: white;
+}
+
+.text1 {
+	font-weight: 700;
+	margin-left: 50px;
+	color: white;
+}
+
+
+
+
+
+
+/*---------------------------------------A propos de moi-----------------------------------------------*/
+
+.colo-bg1 {
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+
+
+.bg-parelax {
+
+	background-image: url(images/agricolette.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+
+
+}
+
+
+
+
+.civilite {
+
+	text-align: left;
+	font-size: 18px;
+	padding-top: 9px;
+
+
+}
+
+.civilite1 {
+
+	text-align: left;
+	font-size: 18px;
+	padding-top: 9px;
+
+}
+
+hr-apropos {
+
+	margin-left: 1px;
+	border: 2px solid #5251bb;
+	width: 70px;
+	position: relative;
+	bottom: 12px;
+
+}
+
+.text-comp {
+
+
+	margin-top: 35px;
+	font-weight: bolder;
+	font-size: 19px;
+	margin-left:
+}
+
+.barprogress {
+
+	margin-left: 410px;
+}
+
+.barprogress1 {
+
+	margin-left: 420px;
+
+}
+
+.top-text {
+	position: relative;
+	top: px;
+}
+
+.top-text-photo {
+
+	position: relative;
+	top: 20px;
+}
+
+
+/**----------------------------------------------Expériences-------------------------------------------*/
+
+
+.bg-fond1 {
+
+	background-image: url(images/bg-fond2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.hr-1-experiences1 {
+
+
+	border: 2px solid cornflowerblue;
+	width: 6%;
+	left: 600px;
+	position: relative;
+	bottom: 15px;
+
+
+}
+
+.hr-1-experiences2 {
+
+
+	border: 2px solid cornflowerblue;
+	width: 19%;
+	left: 120px;
+	position: relative;
+	bottom: 45px;
+
+
+}
+
+.pratique {
+
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	bottom: 50px;
+}
+
+
+.localisation {
+
+	position: relative;
+	bottom: 20px;
+	left: 75px;
+
+
+}
+
+.localisation9 {
+
+	position: relative;
+	bottom: 20px;
+	left: 80px;
+
+
+}
+
+
+.localisation8 {
+
+	position: relative;
+	bottom: 20px;
+	margin-left: 80px;
+
+
+}
+
+.souligne {
+
+	border-bottom: 1px solid cornflowerblue;
+}
+
+.text-left {
+
+	font-size: 20px;
+	text-align: center;
+}
+
+.text-left1 {
+
+	margin-top: 15px;
+	font-size: 15px;
+
+}
+
+.text-left10 {
+
+	font-size: 15px;
+	line-height: 0.9em;
+}
+
+.text-left1-d {
+
+	font-size: 15px;
+
+	padding-top: 15px;
+}
+
+.text-left5-d {
+
+	font-size: 15px;
+
+}
+
+.text-left6-d {
+
+	font-size: 15px;
+
+	padding-top: px;
+}
+
+
+.carte1 {
+
+	padding-left: 20px;
+}
+
+
+
+
+
+/*-----------------------------------Compétences-------------------------------------------------------*/
+
+
+
+.color-nav {
+
+	background-image: url(images/bg-fum%C3%A9.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.livre {
+	background-color: white;
+}
+
+.livre1 {
+	background-color: white;
+	padding-top: 10px;
+
+
+}
+
+.carte-border {
+
+	border: 1px solid cornflowerblue;
+}
+
+
+
+/*-----------------------------------Mes projets-------------------------------------------------------*/
+
+
+.bg-perso {
+
+	background-image: url(images/bg-fum%C3%A9.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 30px;
+
+}
+
+
+
+
+
+.image-projets1 {
+
+
+	width: 95%;
+	height: 180px;
+	margin-top: 20px;
+	left: 7px;
+	position: relative;
+}
+
+.text-card-sous1 {
+
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	transition: all 1s ease;
+}
+
+.text-card-sous2 {
+
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	transition: all 1s ease;
+}
+
+.text-card-sous3 {
+
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	transition: all 1s ease;
+}
+
+.text-card-sous4 {
+
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	transition: all 1s ease;
+}
+
+.text-card-sous5 {
+
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	transition: all 1s ease;
+}
+
+.text-card-sous6 {
+
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	transition: all 1s ease;
+}
+
+
+.text-card-sous1:hover {
+
+	background-image: url(images/BICIG-Logo-AA-18-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: 1s;
+
+}
+
+
+.text-card-sous2:hover {
+
+	background-image: url(images/t%C3%A9l%C3%A9chargement.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	transform: 1s;
+	color: white;
+
+}
+
+.text-card-sous3:hover {
+
+	background-image: url(images/t%C3%A9l%C3%A9chargement.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: 1s;
+	color: white;
+
+
+}
+
+.text-card-sous4:hover {
+
+	background-image: url(images/Zain-Kuwait.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: 1s;
+	color: white;
+}
+
+.text-card-sous5:hover {
+
+	background-image: url(images/airtel.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: 1s;
+	color: white;
+}
+
+.text-card-sous6:hover {
+
+	background-image: url(images/ecole241.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: 1s;
+	color: white;
+}
+
+
+.text1-card {
+
+	background-color: white;
+
+}
+
+
+
+.carte2 {
+
+	padding: 10px;
+}
+
+.localisation1 {
+
+	text-align: center;
+	margin-top: 8px;
+
+
+}
+
+
+/*--------------------------------------------------------------------Services--------------------------*/
+.color-services {
+	background-color: #578bef;
+	padding: 22px;
+
+}
+
+.hr-1-services1 {
+
+	border: 2px solid cornflowerblue;
+	width: 6%;
+	left: 599px;
+	position: relative;
+	bottom: 15px;
+
+}
+
+.hr-1-services2 {
+
+	border: 2px solid cornflowerblue;
+	width: 24%;
+	left: 119px;
+	position: relative;
+	bottom: 45px;
+
+}
+
+.hormis {
+
+
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	bottom: 45px;
+
+}
+
+
+.scale {
+
+	transition: all 1s ease;
+}
+
+.scale:hover {
+
+	transform: scale(0.5);
+}
+
+
+
+
+
+/*----------------------------------------------Blog------------------------------------------------------*/
+
+
+
+.bg-effet {
+
+	background-image: url(images/effet-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+
+
+}
+
+h1 {
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.row {
+	margin: 8px -10px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 33.33%;
+	display: none;
+	/* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+	display: block;
+}
+
+/* Style the buttons */
+.bouton2 {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.bouton2:hover {
+	background-color: #ddd;
+}
+
+.bouton2.active {
+	background-color: cornflowerblue;
+	color: white;
+}
+
+
+
+
+
+
+.text-blog1 {
+
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	padding-top: 40px;
+	margin-right: 20px;
+}
+
+.paragraphe {
+
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.paragraphe-9 {
+
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+
+.text-bloc-blog {
+
+	font-size: 13px;
+	font-weight: bolder;
+
+}
+
+.text-bloc-blog-2 {
+
+	font-size: 13px;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+
+.color-blog-text7 {
+	border-left: 4px solid cornflowerblue;
+	background-color: white;
+	text-align: justify;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+
+}
+
+.color-blog-text1 {
+	border-left: 4px solid cornflowerblue;
+	background-color: white;
+	text-align: justify;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	height: 210px;
+
+
+
+}
+
+.color-blog-text7 {
+	border-left: 4px solid cornflowerblue;
+	background-color: white;
+	text-align: justify;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	height: 420px;
+
+
+
+}
+
+.color-blog-text3-4 {
+	border-left: 4px solid cornflowerblue;
+	background-color: white;
+	text-align: justify;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	height: 270px;
+
+
+
+}
+
+.color-blog-text6 {
+
+	background-color: white;
+	margin-left: 116px;
+	text-align: left;
+
+}
+
+
+
+.color-blog-text2 {
+	border-left: 4px solid cornflowerblue;
+	background-color: white;
+	padding-top: 30px;
+	height: 590px;
+
+}
+
+.scale {
+
+	transition: all 1s ease;
+}
+
+.scale:hover {
+
+	transform: scale(0.8);
+}
+
+/*----------------------------------------------------Contact-------------------------------------------------*/
+
+
+
+.button2 {
+
+	margin-top: 50px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 2px solid white;
+	background-color: #578bef;
+	color: white;
+	border-radius: 60px;
+
+}
+
+.button2-1 {
+
+
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border: 2px solid white;
+	background-color: #578bef;
+	color: white;
+	border-radius: 60px;
+
+}
+
+.button2-1-1 {
+
+
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid white;
+	background-color: #578bef;
+	color: white;
+	border-radius: 60px;
+
+}
+
+.button2-2 {
+
+
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid white;
+	background-color: #578bef;
+	color: white;
+	border-radius: 60px;
+	margin-left: 2px;
+
+}
+
+.button2:hover {
+
+	background-image: url(images/effet-bg.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.button2-1:hover {
+
+	background-image: url(images/effet-bg.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.button2-2:hover {
+
+	background-image: url(images/effet-bg.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.button2-1-1:hover {
+
+	background-image: url(images/effet-bg.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.form-controle1 {
+	border: none;
+	border-bottom: 2px solid #a2a2a2;
+	box-shadow: none;
+	padding: 6px 0;
+	border-radius: 0;
+	width: 200px;
+
+}
+
+.form-controle {
+	border: none;
+	border-bottom: 2px solid #a2a2a2;
+	box-shadow: none;
+	padding: 6px 0;
+	border-radius: 0;
+	width: 490px;
+	padding-top: 40px;
+
+}
+
+.form-controle8 {
+	border: none;
+	border-bottom: 2px solid #a2a2a2;
+	box-shadow: none;
+	padding: 6px 0;
+	border-radius: 0;
+	width: 230px;
+	padding-top: 40px;
+
+}
+
+.form-controle9 {
+	border: none;
+	border-bottom: 2px solid #a2a2a2;
+	box-shadow: none;
+	padding: 6px 0;
+	border-radius: 0;
+	width: 280px;
+	padding-top: 40px;
+
+
+}
+
+
+
+.form-controle10 {
+	border: none;
+	border-bottom: 2px solid #a2a2a2;
+	box-shadow: none;
+	padding: 6px 0;
+	border-radius: 0;
+	width: 280px;
+	padding-top: 20px;
+
+
+}
+
+
+.from-control {
+
+	width: 490px;
+	height: 110px;
+	margin-top: 50px;
+
+
+}
+
+.from-control9 {
+
+	width: 280px;
+	height: 110px;
+	margin-top: 50px;
+
+}
+
+.form-group {
+
+	margin-bottom: 35px;
+	width: 600px;
+	height: 400px;
+
+}
+
+.color-contact {
+
+	background-color: white;
+	padding: 8px;
+
+}
+
+.loca {
+
+	display: inline-flex;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
