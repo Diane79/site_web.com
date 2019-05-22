@@ -15,6 +15,35 @@ html {
 }
 
 
+ul li{
+	position: relative;
+	display: block;
+	padding: 4px 2px;
+	text-align: center;
+	transition: 5s;
+	
+} 
+
+
+ul li a:before{
+	
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: white;
+	z-index: -1;
+	transform: scaleX(0);
+	transform-origin: right;
+} 
+
+ul li a:hover:before{
+	
+	
+	transform: scaleX(1);
+}
 
 .section {
 
@@ -127,7 +156,7 @@ html {
 .line {
 
 	line-height: 1.8em;
-	margin-top: 300.3px;
+	margin-top: 310.3px;
 
 }
 
@@ -179,6 +208,10 @@ html {
 }
 
 
+.active{
+	
+	border-bottom: 1px solid white;
+}
 
 
 
@@ -630,6 +663,15 @@ hr-apropos {
 /*----------------------------------------------Blog------------------------------------------------------*/
 
 
+.filtre{
+	
+	
+	background: rgba{0, 0, 0, 0, 0.8};
+	height: 50px;
+	white-space: 10%;
+}
+
+
 
 .bg-effet {
 
@@ -701,10 +743,6 @@ h1 {
 }
 
 
-
-
-
-
 .text-blog1 {
 
 	text-align: center;
@@ -743,11 +781,6 @@ h1 {
 	font-size: 13px;
 	font-weight: bolder;
 }
-
-
-
-
-
 
 
 .color-blog-text7 {
