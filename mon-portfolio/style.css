@@ -883,8 +883,6 @@ h1 {
 }
 
 .button2-1 {
-
-
 	padding-bottom: 5px;
 	padding-top: 5px;
 	padding-left: 12px;
@@ -901,12 +899,12 @@ h1 {
 
 	padding-bottom: 5px;
 	padding-top: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	border: 2px solid white;
 	background-color: #578bef;
 	color: white;
-	border-radius: 60px;
+	border-radius: 50px;
 
 }
 
@@ -915,13 +913,13 @@ h1 {
 
 	padding-bottom: 5px;
 	padding-top: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	border: 2px solid white;
 	background-color: #578bef;
 	color: white;
-	border-radius: 60px;
-	margin-left: 2px;
+	border-radius: 50px;
+	margin-left: px;
 
 }
 
@@ -1054,3 +1052,4 @@ h1 {
 
 
 /*------------------------------------------------------------------------------------------------------*/
+?body=Bonjour Mme IDIATA, nous apprécions votre profil et souhaitons avoir un entretien avec vous
