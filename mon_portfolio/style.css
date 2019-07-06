@@ -78,10 +78,11 @@ html {
 .text10 {
 
 
-	font-size: 22px;
+	font-size: 24px;
 	color: white;
 	font-weight: bolder;
 	font-family: Pinyon Script;
+	
 	
 
 }
@@ -98,14 +99,15 @@ html {
 	font-size: 25px;
 	color: white;
 	padding-left: 0px;
-	padding-top: 105px;
+	padding-top: 155px;
+	
 
 
 }
 
+
+
 .text2-header {
-
-
 	color: white;
 	font-size: 25px;
 	margin-left: 50px;
@@ -113,8 +115,6 @@ html {
 }
 
 .text2-header1 {
-
-
 	color: white;
 	font-size: 25px;
 	margin-left: 30px;
@@ -129,6 +129,13 @@ html {
 	margin-top: 310.3px;
 
 }
+
+.line1{
+	
+	margin-top: 75px;
+	
+}
+
 
 
 .button1 {
@@ -153,8 +160,8 @@ html {
 	margin-top: 20px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	padding-left: 20px;
-	padding-right: 14px;
+	padding-left: 26px;
+	padding-right: 19px;
 	border: 2px solid white;
 	color: white;
 }
